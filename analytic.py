@@ -15,4 +15,11 @@ for d in data:
 print(sum_len / count)
 
 
+new = []
+for d in data:
+    if len(d) > 100:
+        new.append(d)
+print('there are: ', len(new), 'more than 100')
+
+
 
